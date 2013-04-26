@@ -1,0 +1,53 @@
+body {
+  margin: 10px 0 0 0;
+  padding: 0px;
+  font-family: Arial;
+  font-size: 10pt;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin:auto;
+  text-align:center;  
+}
+table.tableReports {
+  border-collapse: collapse;
+  margin:auto;
+  font-size : 10pt;
+}
+
+table.tableReports th{
+  background-color: lightgray;
+  text-align: center;
+}
+tr.tr_selectable:hover {
+  background-color: skyblue;
+  color: black;
+  cursor : pointer;
+}
+
+tr.tr_libur {
+  background-color: pink;
+}
+tr.tr_izin {
+  background-color: lightblue;
+}
+tr.tr_bolos {
+  background-color: red;
+  color: white;
+}
+tr.tr_summary {
+  border-top : solid 2px black;
+  border-bottom : none;
+}
+
+
+td.td_kurang {
+  background-color: orange;
+}
+td.td_kosong {
+  background : red;
+  color: white;
+}
+td.td_izin {
+  background : yellow;
+  color: black;
+}

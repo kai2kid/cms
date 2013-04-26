@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  font-size: 10pt;
+}
+div.wrapper_login {
+}
+div.notif_red {
+  text-align: center;
+  background-color: red;
+  color: white;
+  margin: 5px;  
+}
+table.tableLogin {
+  margin:auto;
+  border: 1px solid black;
+  border-radius : 15px;
+  padding: 10px;
+  margin-top: 100px;
+}
